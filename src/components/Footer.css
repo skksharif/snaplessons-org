@@ -1,0 +1,147 @@
+/* General Footer Styles */
+.footer {
+  background-color: #1e1e1e;
+  color: #f9f9f9;
+  padding: 50px 20px;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap; /* Enables responsiveness */
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+/* Left Section */
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-width: 250px;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+.footer-address{
+  font-size: 15px;
+  margin-top: -18px;
+}
+
+.footer-address a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+.footer-address a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-media img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.social-media img:hover {
+  transform: scale(1.2);
+  filter: grayscale(0%);
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+/* Links Section */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+  min-width: 150px;
+}
+
+.footer-column a {
+  color: #f9f9f9;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #6c63ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-left {
+    align-items: start;
+  }
+
+
+  .footer-logo {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+
+  .footer-address {
+    font-size: 14px;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+
+  .footer-links {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 15px;
+  }
+
+  .footer-logo {
+    width: 80px;
+  }
+
+  .footer-address {
+    font-size: 13px;
+  }
+
+  .social-media img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .footer-column a {
+    font-size: 14px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}

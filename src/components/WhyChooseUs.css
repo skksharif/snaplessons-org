@@ -1,0 +1,126 @@
+.why-choose-us {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .why-choose-us h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circular-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .circle-item {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+  }
+  
+  .circle-item span {
+    margin-top: 0.5rem;
+  }
+  
+  /* Position each circle item around the center */
+  .item1 { top: 0; left: 50%; transform: translateX(-50%); }
+  .item2 { top: 25%; right: 0; transform: translateY(-50%); }
+  .item3 { bottom: 25%; right: 0; transform: translateY(50%); }
+  .item4 { bottom: 0; left: 50%; transform: translateX(-50%); }
+  .item5 { bottom: 25%; left: 0; transform: translateY(50%); }
+  .item6 { top: 25%; left: 0; transform: translateY(-50%); }
+  
+  .text-content {
+    max-width: 500px;
+  }
+  
+  .text-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .approaches {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .approach-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .circular-container {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .circle-item {
+      width: 60px;
+      height: 60px;
+      font-size: 0.7rem;
+    }
+  
+    .text-content {
+      text-align: center;
+    }
+  }
+  

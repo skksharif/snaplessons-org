@@ -1,0 +1,110 @@
+/* GlossInfo.css */
+
+.gloss-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gloss-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gloss-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.service-image{
+  max-height: 300px;
+  object-fit: contain;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.service-image:hover {
+  transform: scale(1.05);
+}
+
+.gloss-content {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.gloss-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.gloss-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.gloss-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.feature-item:hover {
+  color: #27ae60;
+}
+
+.check-icon {
+  color: #27ae60;
+  margin-right: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .gloss-container{
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .gloss-content{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .gloss-image{
+    width: 100%;
+  }
+  .gloss-image img {
+    object-fit: cover;
+  }
+
+  .gloss-title {
+    font-size: 20px;
+  }
+
+  .gloss-description {
+    font-size: 14px;
+  }
+}
