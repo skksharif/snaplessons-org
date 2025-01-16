@@ -1,6 +1,6 @@
 /* General Footer Styles */
 .footer {
-  background-color: #1e1e1e;
+  background-color: #363636;
   color: #f9f9f9;
   padding: 50px 20px;
   position: relative;
@@ -28,6 +28,9 @@
 .footer-logo {
   width: 120px;
   margin-bottom: 20px;
+}
+.footer-left img{
+  filter: drop-shadow(2px 2px 5px #fffbfb);
 }
 .footer-address{
   font-size: 15px;
