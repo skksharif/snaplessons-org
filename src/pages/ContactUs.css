@@ -62,7 +62,7 @@
 
 .contact-form .icon {
   font-size: 1.2rem;
-  color: #4a90e2;
+  color: #000087;
 }
 
 .contact-form input,
@@ -82,7 +82,7 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-bottom: 2px solid #4a90e2;
+  border-bottom: 2px solid #000087;
   transition: border-bottom 0.3s ease;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .contact-form .form-terms a {
-  color: #4a90e2;
+  color: #000087;
   text-decoration: none;
 }
 
@@ -104,7 +104,7 @@
   padding: 0.75rem;
   font-size: 1rem;
   color: #fff;
-  background-color: #4a90e2;
+  background-color: #000087;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -112,7 +112,7 @@
 }
 
 .contact-form .submit-button:hover {
-  background-color: #357abd;
+  background-color: goldenrod;
 }
 
 .contact-info p {
@@ -122,7 +122,7 @@
 }
 
 .contact-availability {
-  color: #4a90e2;
+  color: #000087;
   font-weight: bold;
 }
 
@@ -140,13 +140,13 @@
   height: 40px;
   border-radius: 50%;
   background-color: #e4e7ed;
-  color: #4a90e2;
+  color: #000087;
   font-size: 1.2rem;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .social-icon:hover {
-  background-color: #4a90e2;
+  background-color: #000087;
   color: #fff;
 }
 

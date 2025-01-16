@@ -9,7 +9,7 @@
 
 /* Section Titles */
 .corporate-container h2 {
-  color: #333;
+  color: #000087;
   margin-bottom: 1rem;
   font-size: 2rem;
 
@@ -103,7 +103,7 @@
 
 .mission h3, .vision h3, .values h3 {
   font-size: 1.5rem;
-  color: #4a90e2;
+  color: goldenrod;
   margin-bottom: 0.5rem;
   text-align: center;
 }
@@ -127,6 +127,9 @@
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+}
+.corporate-container .team{
+  
 }
 
 /* Responsive Design */

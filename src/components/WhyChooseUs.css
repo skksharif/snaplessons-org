@@ -7,12 +7,13 @@
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: #000087;
   }
   
   .content {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 5rem;
     justify-content: center;
     align-items: center;
   }
@@ -29,7 +30,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: #4a90e2;
+    background-color: #000087;
     color: white;
     border-radius: 50%;
     width: 100px;
@@ -49,7 +50,7 @@
     position: absolute;
     width: 80px;
     height: 80px;
-    background-color: #4a90e2;
+    background-color: #000087;
     color: white;
     text-align: center;
     border-radius: 50%;

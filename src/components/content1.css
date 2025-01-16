@@ -4,9 +4,8 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #e4ebfe;
-  margin:  0;
-  padding-bottom: 20px;
+  background-color: #ffc43b43;
+  padding: 100px 20px;
 }
 .home-content {
   display: flex;
@@ -25,19 +24,23 @@
 }
 .welcome-banner h1 {
   font-size: 45px;
+  color: rgb(0, 11, 220);
 }
 .welcome-banner p {
   font-size: large;
   margin-bottom: 40px;
 }
 .welcome-banner a {
-  background-color: rgb(0, 187, 220);
+  background-color: rgb(0, 11, 220);
   color: white;
   font-size: large;
   padding: 10px 20px;
-
   border-radius: 10px;
   text-decoration: none;
+  transition:background-color 0.2s linear;
+}
+.welcome-banner a:hover{
+  background-color: rgb(201, 152, 30);
 }
 @media (max-width: 768px) {
   .home-content {

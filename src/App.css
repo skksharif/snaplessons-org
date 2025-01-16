@@ -23,7 +23,7 @@ header {
   padding:0 5px;
 }
 .social-media a:hover{
-  background-color: #0ad6ff;
+  background-color: #e1c826;
 }
 .social-media a img{
   width: 25px;
@@ -31,32 +31,6 @@ header {
 }
 header .navbar1 {
   display: none;
-}
-
-header .location,
-header .phone {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-header .location p,
-header .phone p {
-  text-align: center;
-}
-header .phone .contact-info{
-  background-color: rgba(0, 65, 100, 0.753);
-  padding: 0 20px;
-  border-radius: 5px 20px;
-  box-shadow: 0 0 3px 0 rgb(148, 148, 148);
-  border: none;
-}
-header .phone .contact-info:hover{
-  transition: 0.3s ease;
-  box-shadow: 0 0 20px 0 rgb(0, 65, 100);
-  background-color: aliceblue;
-  color: rgb(0, 52, 115);
-  border-radius: 20px 5px;
 }
 
 
@@ -110,12 +84,13 @@ header .phone .contact-info:hover{
   top: 0;
   position: sticky;
   z-index: 999;
-  background-color: white;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
 }
 .navbar .logo img {
   width: 60px;
@@ -137,8 +112,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgb(48, 158, 255);
-  color:#fff;
+  background-color: rgb(0, 13, 100);
+  color:#fac91a;
 }
 
 nav ul {
@@ -208,7 +183,7 @@ nav ul li:hover {
 .show-navitems {
   margin: 0 10px;
   text-decoration: none;
-  color: #00478a;
+  color: #000c58;
   font-size: 16px;
   text-transform: uppercase;
   border-radius: 5px;

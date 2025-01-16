@@ -29,7 +29,8 @@
 .service-card {
   width: 300px;
   padding: 1.5rem;
-  background-color: #f9f9f9;
+  background-color: rgba(255, 255, 255, 0.701);
+  backdrop-filter: blur(10px);
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   text-align: left;
@@ -43,7 +44,7 @@
 
 .service-icon {
   font-size: 2rem;
-  color: #4a90e2; /* Adjust color to match your theme */
+  color: #c4ac34; /* Adjust color to match your theme */
   margin-bottom: 1rem;
 }
 
@@ -55,5 +56,5 @@
 
 .service-card p {
   font-size: 0.9rem;
-  color: #666;
+  color: #525252;
 }

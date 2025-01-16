@@ -7,7 +7,7 @@
 
 .contact-form1 h1 {
   font-size: 28px;
-  color: #333;
+  color: #000087;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -51,11 +51,12 @@
 
 .input-container input:focus,
 .input-container select:focus {
-  border-color: #6b00ff;
+  border-color: #000087;
+
 }
 
 .submit-btn {
-  background-color: #6b00ff;
+  background-color: #000087;
   color: #fff;
   padding: 12px 30px;
   font-size: 16px;
@@ -63,8 +64,9 @@
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
+  transition: background-color 0.2s linear;
 }
 
 .submit-btn:hover {
-  background-color: #5a00d9;
+  background-color: goldenrod;
 }

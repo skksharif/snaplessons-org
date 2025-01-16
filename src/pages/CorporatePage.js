@@ -1,10 +1,9 @@
-import React,{useEffect} from 'react';
-import AOS from 'aos';
+import React, { useEffect } from "react";
+import AOS from "aos";
 import "aos/dist/aos.css";
 import "./corporate.css";
 import { FaBullseye, FaUsers, FaGlobe, FaTrophy } from "react-icons/fa";
 import ProfileCard from "../components/cards/ProfileCard";
-
 
 const CorporatePage = () => {
   useEffect(() => {
@@ -61,22 +60,23 @@ const CorporatePage = () => {
               <div className="values" data-aos="flip-up">
                 <h3>Values</h3>
                 <p>
-                  Snaplessons’s values and ethics form the foundation of who we are.
-                  Trust, Respect, and Freedom are the three guiding values of
-                  Snaplessons, forming the basis of a successful, long-lasting
-                  enterprise.
+                  Snaplessons’s values and ethics form the foundation of who we
+                  are. Trust, Respect, and Freedom are the three guiding values
+                  of Snaplessons, forming the basis of a successful,
+                  long-lasting enterprise.
                 </p>
               </div>
             </div>
-          
           </div>
         </div>
       </section>
 
-      <center><h1>Team</h1></center>
-      <ProfileCard/>
-
-
+      <div className="team">
+        <center>
+          <h2>Team</h2>
+        </center>
+        <ProfileCard />
+      </div>
     </div>
   );
 };

@@ -7,16 +7,15 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.2); /* Slightly transparent white */
-  backdrop-filter: blur(10px); /* Creates the glass effect */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for a glass-like finish */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
-  color: #ffffff; /* Ensures text is visible on blue background */
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .work-card:hover {
-  transform: scale(1.1);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhances shadow on hover */
 }
 
