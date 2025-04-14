@@ -24,17 +24,17 @@ export default function Home() {
     {
       title: 'Delivering Doman-driven, Technical Expertise.',
       description: 'We provide the best solutions for your needs.',
-      image: './images/slider/1.png',
+      image: './images/slider/one.png',
     },
     {
       title: 'Reimagine Technology, with our Expertise.',
       description: 'Our team consists of experienced professionals.',
-      image: './images/slider/2.png',
+      image: './images/slider/two.png',
     },
     {
       title: 'Fostering Innovation, Leading Change.',
       description: 'Products and solutions that keep you always ahead.',
-      image: './images/slider/3.png',
+      image: './images/slider/three.png',
     }
   ];
   
