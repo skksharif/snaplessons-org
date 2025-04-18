@@ -59,7 +59,7 @@ const Footer = () => {
             <p>Gachibowli, Hyderabad, Telangana - 500032</p>
             <p>
               <strong>Email:</strong>{" "}
-              <a href="mailto:teamhr@snaplessons.in">teamhr@snaplessons.in</a>
+              <a href="mailto:teamhr@snaplessons.in">teamhr@snaplessons.org</a>
             </p>
             <p>
               <strong>Phone:</strong> +91 8985175753, +91 8500796763
